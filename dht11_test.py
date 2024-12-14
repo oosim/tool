@@ -2,7 +2,7 @@ import Adafruit_DHT  # 라이브러리 불러오기
 
 sensor = Adafruit_DHT.DHT11  # sensor 객체 생성
 
-pin = 2  # Data핀의 GPIO핀 넘버
+pin = 4  # Data핀의 GPIO핀 넘버
 
 humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)  # 센서 객체에서 센서 값(ㅇ노도, 습도) 읽기
 
